@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="독도의 식물, 곤충, 조류, 해양 생물과 해양 환경을 공공기관 자료로 살펴보는 인터랙티브 생태 안내서"
+    />
+    <meta name="theme-color" content="#061f2b" />
+    <title>독도 생태 아카이브 | 바위 위의 섬, 그 아래의 숲</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 바로가기</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="독도 생태 아카이브 처음으로">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i></span>
+        <span>독도 생태 아카이브</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">메뉴 열기</span>
+        <span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
+        <a href="#overview">한눈에 보기</a>
+        <a href="#ecosystem">생물도감</a>
+        <a href="#ocean">바닷속</a>
+        <a href="#conservation">보전</a>
+        <a class="nav-cta" href="#quiz">생태 퀴즈</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-photo" role="img" aria-label="푸른 바다 위 독도의 동도와 서도 전경"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-content shell">
+          <p class="eyebrow light">37°14′N · 131°52′E · 동해</p>
+          <h1 id="hero-title">바위 위의 섬,<br /><em>그 아래의 숲</em></h1>
+          <p class="hero-copy">
+            거센 바람을 견디는 작은 꽃부터 바닷속 해조 숲까지.<br />독도는 육지와 바다가 맞닿아 완성되는 하나의 생태계입니다.
+          </p>
+          <a class="scroll-cue" href="#overview">
+            <span>탐사 시작</span>
+            <i aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="hero-index" aria-hidden="true">
+          <span>01</span><i></i><span>05</span>
+        </div>
+        <p class="photo-credit">
+          사진: 머찐만두,
+          <a href="https://commons.wikimedia.org/wiki/File:Dokdo_20080628-panorama.jpg" target="_blank" rel="noreferrer">CC BY-SA 2.0 KR</a>
+        </p>
+      </section>
+
+      <section class="intro section shell" id="overview" aria-labelledby="overview-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">하나의 섬, 두 개의 세계</p>
+          <h2 id="overview-title">작지만<br /><em>생태적으로 거대한 섬</em></h2>
+          <p>
+            독도는 화산암 절벽과 얕은 토양, 강한 바람이 지배하는 육상 환경과 차고 따뜻한 물이 만나는 바다가 긴밀히 연결된 곳입니다.
+            철새에게는 바다 한가운데의 쉼터이며, 해양 생물에게는 먹이와 은신처를 내어주는 암반 서식지입니다.
+          </p>
+        </div>
+
+        <div class="fact-grid reveal" aria-label="독도의 주요 생태 수치">
+          <article class="fact-card featured">
+            <p class="fact-kicker">천연보호구역</p>
+            <strong><span data-count="187554">0</span><small>㎡</small></strong>
+            <p>1982년 11월 16일 지정</p>
+            <span class="fact-line" aria-hidden="true"></span>
+          </article>
+          <article class="fact-card">
+            <p class="fact-kicker">확인된 식물</p>
+            <strong>약 <span data-count="60">0</span><small>종</small></strong>
+            <p>해국 · 섬기린초 · 왕호장근 등</p>
+          </article>
+          <article class="fact-card">
+            <p class="fact-kicker">관찰된 조류</p>
+            <strong>약 <span data-count="160">0</span><small>종</small></strong>
+            <p>철새의 중간 피난처이자 휴식처</p>
+          </article>
+          <article class="fact-card">
+            <p class="fact-kicker">주변 해역 생물</p>
+            <strong><span data-count="345">0</span><small>종</small></strong>
+            <p>2020년 국가해양생태계종합조사</p>
+          </article>
+        </div>
+        <p class="data-note reveal">
+          수치는 조사 시기·범위에 따라 달라질 수 있습니다. 식물·조류 수치는 외교부 독도 자연환경 자료, 해양생물 수치는 2020년 조사 결과를 따릅니다.
+        </p>
+      </section>
+
+      <section class="ecosystem section" id="ecosystem" aria-labelledby="ecosystem-title">
+        <div class="shell">
+          <div class="section-heading horizontal reveal">
+            <div>
+              <p class="eyebrow">생태 분류</p>
+              <h2 id="ecosystem-title">독도에서 만난<br /><em>생명의 얼굴들</em></h2>
+            </div>
+            <p>
+              육상의 식물과 곤충, 하늘을 오가는 새, 바다의 생물을 골라 살펴보세요. 각 생물은 고립된 섬의 환경에 저마다 다른 방식으로 적응합니다.
+            </p>
+          </div>
+
+          <div class="filter-bar reveal" role="group" aria-label="생물 분류 필터">
+            <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">전체</button>
+            <button class="filter-button" type="button" data-filter="plant" aria-pressed="false">식물</button>
+            <button class="filter-button" type="button" data-filter="animal" aria-pressed="false">곤충·조류</button>
+            <button class="filter-button" type="button" data-filter="marine" aria-pressed="false">해양생물</button>
+          </div>
+
+          <div class="species-grid" aria-live="polite">
+            <article class="species-card reveal" data-category="plant">
+              <div class="species-art flower-art" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b></div>
+              <div class="species-meta"><span>식물 · 초본류</span><span>01</span></div>
+              <h3>해국</h3>
+              <p class="latin">Aster spathulifolius</p>
+              <p>가을이면 보랏빛 꽃을 피우는 바닷가 식물. 두꺼운 잎과 낮게 자라는 형태로 바람과 염분을 견딥니다.</p>
+              <dl><div><dt>관찰 포인트</dt><dd>9–11월 개화</dd></div><div><dt>주요 환경</dt><dd>해안 암벽</dd></div></dl>
+            </article>
+
+            <article class="species-card reveal" data-category="animal">
+              <div class="species-art gull-art" aria-hidden="true"><i></i><i></i><b></b></div>
+              <div class="species-meta"><span>조류 · 바닷새</span><span>02</span></div>
+              <h3>괭이갈매기</h3>
+              <p class="latin">Larus crassirostris</p>
+              <p>독도의 대표적인 번식 조류. 절벽과 초지에 집단으로 둥지를 틀며 바다와 육지 생태계를 이어 줍니다.</p>
+              <dl><div><dt>관찰 포인트</dt><dd>봄–여름 번식</dd></div><div><dt>주요 환경</dt><dd>절벽 · 초지</dd></div></dl>
+            </article>
+
+            <article class="species-card reveal" data-category="marine">
+              <div class="species-art kelp-art" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+              <div class="species-meta"><span>해조류 · 갈조류</span><span>03</span></div>
+              <h3>대황</h3>
+              <p class="latin">Eisenia bicyclis</p>
+              <p>암반에 붙어 수중 숲을 이루는 대형 갈조류. 어린 물고기와 무척추동물에게 먹이와 은신처를 제공합니다.</p>
+              <dl><div><dt>생태 역할</dt><dd>서식처 형성</dd></div><div><dt>주요 환경</dt><dd>얕은 암반대</dd></div></dl>
+            </article>
+
+            <article class="species-card reveal" data-category="animal">
+              <div class="species-art butterfly-art" aria-hidden="true"><i></i><i></i><b></b></div>
+              <div class="species-meta"><span>곤충 · 나비목</span><span>04</span></div>
+              <h3>작은멋쟁이나비</h3>
+              <p class="latin">Vanessa cardui</p>
+              <p>먼 거리를 이동하는 나비로 독도에서도 관찰됩니다. 작은 섬이 이동성 곤충에게도 징검다리 역할을 함을 보여 줍니다.</p>
+              <dl><div><dt>생태 특징</dt><dd>장거리 이동</dd></div><div><dt>주요 먹이</dt><dd>꽃의 꿀</dd></div></dl>
+            </article>
+
+            <article class="species-card reveal" data-category="marine">
+              <div class="species-art fish-art" aria-hidden="true"><i></i><i></i><b></b></div>
+              <div class="species-meta"><span>어류 · 방어과</span><span>05</span></div>
+              <h3>방어</h3>
+              <p class="latin">Seriola quinqueradiata</p>
+              <p>독도 주변의 풍부한 먹이를 찾아 회유하는 대표 어종. 해류의 흐름과 계절에 따라 출현 양상이 달라집니다.</p>
+              <dl><div><dt>생태 특징</dt><dd>회유성 어류</dd></div><div><dt>주요 환경</dt><dd>외해 수층</dd></div></dl>
+            </article>
+
+            <article class="species-card reveal" data-category="plant">
+              <div class="species-art sedum-art" aria-hidden="true"><i></i><i></i><i></i><b></b></div>
+              <div class="species-meta"><span>식물 · 돌나물과</span><span>06</span></div>
+              <h3>섬기린초</h3>
+              <p class="latin">Phedimus takesimensis</p>
+              <p>두툼한 잎에 수분을 저장하고 바위틈에서도 살아가는 식물. 노란 꽃은 섬의 곤충에게 먹이원이 됩니다.</p>
+              <dl><div><dt>생태 특징</dt><dd>다육성 잎</dd></div><div><dt>주요 환경</dt><dd>바위틈 · 초지</dd></div></dl>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="ocean-section section" id="ocean" aria-labelledby="ocean-title">
+        <div class="ocean-surface" aria-hidden="true"></div>
+        <div class="shell ocean-heading reveal">
+          <p class="eyebrow light">수면 아래의 독도</p>
+          <h2 id="ocean-title">바닷속에는<br /><em>또 하나의 숲이 있습니다</em></h2>
+          <p>
+            독도 주변은 암반 지형이 발달해 해조류가 붙어 자라기 좋습니다. 이 수중 숲을 기반으로 무척추동물과 물고기가 층층이 살아갑니다.
+          </p>
+        </div>
+
+        <div class="ocean-journey shell">
+          <div class="depth-rail" aria-hidden="true">
+            <span>0 m</span><i></i><span>20 m</span><i></i><span>40 m</span>
+          </div>
+          <div class="ocean-layers">
+            <article class="ocean-layer reveal">
+              <div class="layer-number">01</div>
+              <div><p class="layer-kicker">빛이 닿는 연안</p><h3>해조 숲</h3><p>대황·감태·미역 같은 대형 해조류가 햇빛을 받아 자라며 복잡한 입체 서식지를 만듭니다.</p></div>
+              <span class="layer-tag">생산자</span>
+            </article>
+            <article class="ocean-layer reveal">
+              <div class="layer-number">02</div>
+              <div><p class="layer-kicker">바위의 표면</p><h3>무척추동물 군락</h3><p>전복·소라·홍합·성게·해삼과 다양한 암반무척추동물이 바위틈과 표면을 차지합니다.</p></div>
+              <span class="layer-tag">분해자 · 소비자</span>
+            </article>
+            <article class="ocean-layer reveal">
+              <div class="layer-number">03</div>
+              <div><p class="layer-kicker">흐르는 수층</p><h3>회유성 어류</h3><p>방어·꽁치·오징어 등은 계절과 해류를 따라 독도 주변을 오가며 먹이망을 넓은 바다와 연결합니다.</p></div>
+              <span class="layer-tag">상위 소비자</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="survey-card shell reveal">
+          <div>
+            <p class="eyebrow light">2020 국가해양생태계종합조사</p>
+            <h3>확인된 해양생물 <strong>345종</strong></h3>
+          </div>
+          <div class="survey-bars" aria-label="해양생물 분류별 확인 종 수">
+            <div><span>암반무척추동물</span><b style="--value: 100%"></b><strong>215</strong></div>
+            <div><span>해조·해초류</span><b style="--value: 44%"></b><strong>94</strong></div>
+            <div><span>산호류</span><b style="--value: 10%"></b><strong>21</strong></div>
+            <div><span>어류</span><b style="--value: 7%"></b><strong>15</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="climate section shell" aria-labelledby="climate-title">
+        <div class="climate-card reveal">
+          <div class="weather-orbit" aria-hidden="true"><i></i><b></b><span></span></div>
+          <div>
+            <p class="eyebrow">생명을 빚는 조건</p>
+            <h2 id="climate-title">바람, 안개,<br /><em>그리고 난류</em></h2>
+            <p>독도는 난류의 영향을 많이 받는 해양성 기후입니다. 잦은 안개와 강한 바람, 제한된 담수와 얕은 토양이 육상 생물의 분포를 결정합니다.</p>
+          </div>
+          <dl class="climate-stats">
+            <div><dt>연평균 기온</dt><dd>12<small>℃</small></dd></div>
+            <div><dt>연평균 강수량</dt><dd>1,240<small>㎜</small></dd></div>
+            <div><dt>연중 흐린 날</dt><dd>160<small>일 이상</small></dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="conservation section" id="conservation" aria-labelledby="conservation-title">
+        <div class="shell">
+          <div class="section-heading horizontal reveal">
+            <div><p class="eyebrow">보전 과제</p><h2 id="conservation-title">관찰에서<br /><em>보호로</em></h2></div>
+            <p>고립된 섬은 작은 변화에도 민감합니다. 정기적인 모니터링과 위해생물 관리, 해양 쓰레기 정화가 함께 이어져야 합니다.</p>
+          </div>
+          <div class="threat-grid">
+            <article class="threat-card reveal"><span>01</span><h3>해양 쓰레기</h3><p>해류와 바람을 타고 유입된 폐기물은 해안 경관과 해양 생물의 안전을 위협합니다.</p><i aria-hidden="true"></i></article>
+            <article class="threat-card reveal"><span>02</span><h3>생태 위해생물</h3><p>집쥐 같은 외부 유입종은 바닷새의 알과 식생에 영향을 줄 수 있어 유입 차단과 제거가 필요합니다.</p><i aria-hidden="true"></i></article>
+            <article class="threat-card reveal"><span>03</span><h3>갯녹음</h3><p>해조 숲이 줄고 암반이 하얗게 변하는 현상입니다. 성게 제거와 천적생물 방류 등 회복 노력이 진행됩니다.</p><i aria-hidden="true"></i></article>
+            <article class="threat-card reveal"><span>04</span><h3>기후 변화</h3><p>수온과 해류의 변화는 해조류 군락과 회유성 생물의 출현 시기·분포를 바꿀 수 있습니다.</p><i aria-hidden="true"></i></article>
+          </div>
+
+          <div class="monitoring reveal">
+            <div><p class="eyebrow light">계속되는 발견</p><h3>독도는 아직<br />다 읽지 못한 생태 기록입니다.</h3></div>
+            <p>국립생태원 연구에서는 기존 자료에 없던 생물 124종이 새로 확인되었습니다. 정기 조사는 새 종의 기록뿐 아니라 생태계 변화의 방향을 읽는 기준이 됩니다.</p>
+            <a href="https://www.nie.re.kr/nie/bbs/BMSR00071/view.do?boardId=20332034&menuNo=200299" target="_blank" rel="noreferrer">연구 내용 보기 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quiz-section section" id="quiz" aria-labelledby="quiz-title">
+        <div class="shell quiz-shell">
+          <div class="quiz-intro reveal">
+            <p class="eyebrow light">독도 생태 퀴즈</p>
+            <h2 id="quiz-title">오늘 발견한 것을<br /><em>확인해 볼까요?</em></h2>
+            <p>세 문제를 모두 풀면 독도 생태 탐사 기록이 완성됩니다.</p>
+          </div>
+          <div class="quiz-card reveal" data-quiz>
+            <div class="quiz-progress"><span>문제 <b data-question-number>1</b> / 3</span><i><b data-progress></b></i></div>
+            <div class="quiz-content" data-quiz-content></div>
+            <p class="quiz-feedback" data-feedback aria-live="polite"></p>
+            <button class="quiz-next" type="button" data-next disabled>다음 문제 <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sources section shell" id="sources" aria-labelledby="sources-title">
+        <div class="section-heading horizontal reveal">
+          <div><p class="eyebrow">자료 출처</p><h2 id="sources-title">더 깊이<br /><em>탐구하기</em></h2></div>
+          <p>이 사이트는 공공기관이 공개한 생태·보전 자료를 교육용으로 요약했습니다. 아래 원문에서 조사 범위와 세부 내용을 확인할 수 있습니다.</p>
+        </div>
+        <ol class="source-list reveal">
+          <li><span>01</span><div><strong>외교부 독도 — 자연환경</strong><p>기후, 식물, 곤충, 조류, 주요 해양생물</p></div><a href="https://dokdo.mofa.go.kr/m/kor/introduce/nature.jsp" target="_blank" rel="noreferrer" aria-label="외교부 독도 자연환경 새 창에서 보기">↗</a></li>
+          <li><span>02</span><div><strong>해양수산부 — 독도 해양생태계 보전</strong><p>2020년 해양생물 조사와 갯녹음 대응</p></div><a href="https://www.mof.go.kr/doc/ko/selectDoc.do?bbsSeq=10&docSeq=42864&menuSeq=971" target="_blank" rel="noreferrer" aria-label="해양수산부 독도 해양생태계 자료 새 창에서 보기">↗</a></li>
+          <li><span>03</span><div><strong>국립생태원 — 독도 생태계 연구</strong><p>기존 기록에 없던 124종의 추가 확인</p></div><a href="https://www.nie.re.kr/nie/bbs/BMSR00071/view.do?boardId=20332034&menuNo=200299" target="_blank" rel="noreferrer" aria-label="국립생태원 독도 연구 새 창에서 보기">↗</a></li>
+          <li><span>04</span><div><strong>국가유산포털 — 독도 천연보호구역</strong><p>보호구역 면적과 지정 정보</p></div><a href="https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=16%2C03360000%2C37&pageNo=1_2_1_0" target="_blank" rel="noreferrer" aria-label="국가유산포털 독도 천연보호구역 새 창에서 보기">↗</a></li>
+          <li><span>05</span><div><strong>해양수산부 — 제5차 독도 지속가능 이용 기본계획</strong><p>오염물 조사, 정화, 위해생물 유입 차단</p></div><a href="https://www.mof.go.kr/doc/ko/selectDoc.do?bbsSeq=10&docSeq=65924&listUpdtDt=2026-04-16++10%3A00&menuSeq=971" target="_blank" rel="noreferrer" aria-label="제5차 독도 지속가능 이용 기본계획 새 창에서 보기">↗</a></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-main">
+        <div><a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i><i></i></span><span>독도 생태 아카이브</span></a><p>바위 위의 섬, 그 아래의 숲.<br />우리의 관찰이 오래도록 이어지기를 바랍니다.</p></div>
+        <div><strong>탐사하기</strong><a href="#overview">한눈에 보기</a><a href="#ecosystem">생물도감</a><a href="#ocean">바닷속</a></div>
+        <div><strong>참여하기</strong><a href="#conservation">보전 과제</a><a href="#quiz">생태 퀴즈</a><a href="#sources">자료 출처</a></div>
+      </div>
+      <div class="shell footer-bottom"><p>© 2026 독도 생태 아카이브 · 교육용 비영리 프로젝트</p><a href="#top">맨 위로 <span aria-hidden="true">↑</span></a></div>
+    </footer>
+  </body>
+</html>
